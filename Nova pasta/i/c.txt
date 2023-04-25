@@ -1,0 +1,83 @@
+<header>
+      <h1>
+       kmvjncgdf bhfhf
+      </h1>
+
+      <div style="display: flex; align-items: center;">
+        <img
+          height="300"
+          width="540"
+          alt="image dev and programing languages"
+          src="https://ni90ep.csb.app/imgs/imageDev.png"
+        />
+      </div>
+    </header>
+    <main>
+      # Olá! 👋 Meu nome é L 
+
+      <br />
+      <div>
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ipsa eaque 
+   labore laborum aut quasi quidem a ullam, velit possimus dolorum eius adipisci cupiditate est nostrum? Necessitatibus voluptates praesentium quia.
+      </div>
+      <br />
+
+      <br />
+
+      <div>
+        <a href="" target="_blank"
+          ><img
+            src=""
+            
+        /></a>
+        <a href=""
+          ><img
+            src="https://img.shields.io/badge/Twitter-%23333?style=for-the-badge&logo=Twitter&logoColor=white
+            target="_blank"
+        /></a>
+        <a
+          href=""
+          target="_blank"
+          ><img
+            src=""
+            target="_blank"
+        /></a>
+        <a href="mailto:"
+          ><img
+            src=""
+            target="_blank"
+        /></a>
+      </div>
+
+      <hr />
+
+      <br />
+
+      <br />
+
+      <img
+        align="right"
+        alt="o meu "
+        height="134"
+        style="border-radius: 50% 50% 50% 50%;"
+        src="
+      />
+      <div>
+        <img
+          height="300"
+          width="540"
+          alt="image dev and programing languages"
+          src="https://ni90ep.csb.app/imgs/imageDev.png"
+        />
+      </div>
+    </main>
+    <footer>
+      ~]jk
+      <div class="cakeImage">
+        <img alt="image cake" src="doce-lar.jpg" />
+      </div>
+      <div class="cakeImage">
+        <img alt="image candy" src="ovo-choco.png" />
+        <img alt="image candy" src="yellow-modi.png" />
+      </div>
+    </footer>
