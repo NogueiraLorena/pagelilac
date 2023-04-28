@@ -10,16 +10,13 @@ color: rgb(36, 34, 34);
 }
 
 .header-container {
-    /* border: solid 1.5px #000; */
     height: 100vh;
     background-color: #a798ea;
     background-image: url('./i/White-Purple-UI.png');
     width: 100vw; 
     background-repeat: no-repeat;
     background-size: 100%;
- background-position: center; 
-    /* background-size: contain;  */
-    
+    background-position: center; 
     box-sizing: border-box; 
       padding: 0 112px; 
       position: relative;
@@ -60,10 +57,8 @@ color: rgb(36, 34, 34);
 
           a:hover{
             background-color: #fff;
-            /* background-color: hsl(0, 52%, 32%); */
-          }
+            }
 
-          
 /* =-=-=-==-=-=-=-=-=-==-=-=-==-=-==---=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 .checkbox-container{
@@ -77,8 +72,7 @@ color: rgb(36, 34, 34);
     cursor: pointer;
     z-index: 9999;
     transition: 400ms ease-in-out 0s;
-
-    height: 100px;
+height: 100px;
    width: 100px;
    position: absolute;
    right: 0;
@@ -184,3 +178,54 @@ top: 48px;
         box-shadow:#fff 0px  0px 0px 100vmax ;
         z-index: 1;
     }
+
+
+/*RESPONSIVE TEST*/
+ /* =-=-=-==-=-=-=-=-=-==-=-=-==-=-==---=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+
+
+
+@media(min-width:901px) and (max-width: 1500px){
+
+    body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    color: rgb(36, 34, 34);
+   font-family: 'Poppins', sans-serif;
+}
+    
+    .header-container {
+    height: 100vh;
+    background-color: #a798ea;
+    background-image: url('./i/White-Purple-UI.png');
+    width: 100vw; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center; 
+    box-sizing: border-box; 
+      padding: 0 112px; 
+      position: relative;
+      display: flex;
+     flex-direction: column; 
+     justify-content: center; 
+     align-items: flex-start;
+     }
+
+     h1{
+         font-weight: bold; 
+        font-weight: 700;
+        font-size: 50px;
+         text-transform: uppercase; 
+         letter-spacing: 4px;
+    }
+    h2 {
+    text-transform: uppercase;
+     letter-spacing: 4px;
+    }
+    
+    
+}
+
