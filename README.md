@@ -1,11 +1,11 @@
 # pagelilac
 pagelilacic -- in process
 
-early stages <br/>
+early stages <br/> O rascunho tá aqui.
 
  <br/>
    
-    Rascunho / sketch:
+   
    
    <br/>
    <br/>
