@@ -10,10 +10,9 @@ color: rgb(36, 34, 34);
 }
 
 .header-container {
-    height: 100vh;
+    height: 95vh;
     background-color: #a798ea;
     background-image: url('./i/White-Purple-UI.png');
-    width: 100vw; 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -29,7 +28,7 @@ color: rgb(36, 34, 34);
      h1{
          font-weight: bold; 
         font-weight: 700;
-        font-size: 50px;
+        font-size: 52px;
          text-transform: uppercase; 
          letter-spacing: 4px;
     }
