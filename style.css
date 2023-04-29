@@ -1,11 +1,13 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-color: rgb(36, 34, 34);
+    color: rgb(36, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -28,7 +30,7 @@ color: rgb(36, 34, 34);
      h1{
          font-weight: bold; 
         font-weight: 700;
-        font-size: 52px;
+        font-size: 50px;
          text-transform: uppercase; 
          letter-spacing: 4px;
     }
@@ -118,12 +120,12 @@ transition: 400ms ease-in-out 0s;
 background-color: transparent;
 height: 4px;
 width: 10px;
-box-shadow: 0px 0px 0px #ffffff;
-border-radius: 50% ;
+box-shadow: 0px 0px 0px #ffffff ;
+border-radius: 50%; 
 }
 
 .menu-items{
-    position: fixed;
+   position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -169,12 +171,14 @@ border-radius: 50% ;
     }
 
 #toggle:checked + .checkbox{
-        background-color: #ffffff;
+        background-color: #f0eded; 
  }   
 
     #toggle:checked ~ .menu {
-   box-shadow: 0px 0px 0px 75rem #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 95rem #f0eded; 
    z-index: 1;
+   position: fixed;
     }
     
     #toggle:checked ~ .menu-items {
@@ -270,51 +274,8 @@ background-repeat: no-repeat;
 
 
 
+/* @media(min-width:901px) and (max-width: 1500px){ 
 
-/*RESPONSIVE TEST*/
- /* =-=-=-==-=-=-=-=-=-==-=-=-==-=-==---=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
-
-
-@media(min-width:901px) and (max-width: 1500px){
-
-    body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
-    color: rgb(36, 34, 34);
-   font-family: 'Poppins', sans-serif;
-}
-    
-    .header-container {
-    height: 100vh;
-    background-color: #a798ea;
-    background-image: url('./i/White-Purple-UI.png');
-    width: 100vw; 
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center; 
-    box-sizing: border-box; 
-      padding: 0 112px; 
-      position: relative;
-      display: flex;
-     flex-direction: column; 
-     justify-content: center; 
-     align-items: flex-start;
-     }
-
-     h1{
-         font-weight: bold; 
-        font-weight: 700;
-        font-size: 50px;
-         text-transform: uppercase; 
-         letter-spacing: 4px;
-    }
-    h2 {
-    text-transform: uppercase;
-     letter-spacing: 4px;
-    }
-    
-    
+  
 }*/
 
