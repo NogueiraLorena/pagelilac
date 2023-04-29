@@ -25,6 +25,8 @@
      flex-direction: column; 
      justify-content: center; 
      align-items: flex-start;
+    
+    border-bottom: solid 0.7px #a798ea;
      }
 
      h1{
