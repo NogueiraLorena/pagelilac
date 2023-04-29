@@ -15,7 +15,7 @@ color: rgb(36, 34, 34);
     background-image: url('./i/White-Purple-UI.png');
     width: 100vw; 
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center; 
     box-sizing: border-box; 
       padding: 0 112px; 
@@ -69,12 +69,12 @@ color: rgb(36, 34, 34);
 
     
 .checkbox{
+    height: 100px;
+   width: 100px;
     cursor: pointer;
     z-index: 9999;
     transition: 400ms ease-in-out 0s;
-height: 100px;
-   width: 100px;
-   position: absolute;
+    position: absolute;
    right: 0;
    top: 0;
    display: flex;
@@ -114,13 +114,13 @@ display: none;
     position: absolute;
 top: 28px;
 right: 30px;
+z-index: -1;
+transition: 400ms ease-in-out 0s;
 background-color: transparent;
 height: 4px;
 width: 10px;
-border-radius: 50%;
-box-shadow: 0px 0px 0px 8px #ffffff;
-z-index: -1;
-transition: 400ms ease-in-out 0;
+box-shadow: 0px 0px 0px #ffffff;
+border-radius: 50% ;
 }
 
 .menu-items{
@@ -143,7 +143,7 @@ transition: 400ms ease-in-out 0;
     }
         
 
-    .menu-items ul li a{
+    .menu-items ul li a {
         margin: 10px 0;
         color: #1E1E2A;
         text-decoration: none;
@@ -154,12 +154,10 @@ transition: 400ms ease-in-out 0;
    /* =-=-=-==-=-=-=-=-=-==-=-=-==-=-==---=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
    #toggle:checked + .checkbox .trace:nth-child(1){
-
     transform: rotate(45deg); 
     top: 47px;
     }
     #toggle:checked + .checkbox .trace:nth-child(2){
-
     transform: translate(-100px);
     width: 30px;
     visibility: hidden;
@@ -167,23 +165,115 @@ transition: 400ms ease-in-out 0;
     
     }
     #toggle:checked + .checkbox .trace:nth-child(3){
-transform: rotate(-45deg);
-top: 48px;
+     transform: rotate(-45deg);
+    top: 48px;
     }
 
-    #toggle:checked + .checkbox{
-        background-color: #fff;
+#toggle:checked + .checkbox{
+        background-color: #ffffff;
+ }   
+
+    #toggle:checked ~ .menu {
+   box-shadow: 0px 0px 0px 75rem #ffffff;
+   z-index: 1;
     }
-    #toggle:checked ~ .menu{
-        box-shadow:#fff 0px  0px 0px 100vmax ;
-        z-index: 1;
+    
+    #toggle:checked ~ .menu-items {
+        visibility: visible;
+        opacity: 1;
+         }
+     
+
+ /* =-=-=-==-=-=-=-=-=-==-=-=-==-=-==---=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+ .container{
+    height: auto;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  margin: 3rem 0; 
+   /* margin-top: 3rem;*/
+ }
+ .card-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+     }
+
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex; 
+  justify-content: center; 
+align-items: center; 
+background-color: #a798ea;
+background-image: url("i/imgs-pra-portfolio.png");
+background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center; 
+   
+     transition: 0.5s ease-in-out; 
+   /* filter: grayscale(1.0); */
+   filter: grayscale(0.5);
+   color: #1E1E2A;
+   cursor: pointer;
+
+}      
+
+    .card-text{
+    width: 40%;
+    letter-spacing: 1px;
+    color: hsl(240, 1%, 63%);
+}
+
+    .card-wrapper{
+        text-align: center;
+        display: flex; 
+        justify-content: center; 
+      align-items: center; 
+      flex-direction: column;
+      position: relative;
     }
+
+    .card-wrapper::before{
+        width: 100px;
+        height: 100px;
+        content: '';
+    position: absolute;
+    transition: 0.5s ease-in-out; 
+
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    opacity: 0;
+
+    }
+    .card-wrapper h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out; 
+
+    }
+
+    .card-wrapper p{
+        font-size: 0px;
+        visibility: visible;
+        opacity: 0;
+        font-weight: bold;
+        transition: 0.5s ease-in-out; 
+        text-transform: uppercase;
+        }
+
+
+
 
 
 /*RESPONSIVE TEST*/
- /* =-=-=-==-=-=-=-=-=-==-=-=-==-=-==---=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
-
-
+ /* =-=-=-==-=-=-=-=-=-==-=-=-==-=-==---=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
 
 
 @media(min-width:901px) and (max-width: 1500px){
@@ -227,5 +317,5 @@ top: 48px;
     }
     
     
-}
+}*/
 
