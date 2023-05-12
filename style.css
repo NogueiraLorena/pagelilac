@@ -193,8 +193,7 @@ border-radius: 50%;
 
  .container{
     height: auto;
-    /* width: 100%; */
-    display: flex;
+   display: flex;
     justify-content: space-evenly;
     flex-direction: column;
   margin: 3rem 0; 
@@ -219,16 +218,14 @@ background-image: url("i/imgs-pra-portfolio.png");
 background-repeat: no-repeat;
     background-size: cover;
      background-position: center; 
-   
-     transition: 0.5s ease-in-out; 
+   transition: 0.5s ease-in-out; 
    /* filter: grayscale(1.0); */
    filter: grayscale(0.5);
    color: #1E1E2A;
    cursor: pointer;
-
 }      
 
-    .card-text{
+.card-text{
     width: 40%;
     letter-spacing: 1px;
     color: hsl(240, 1%, 63%);
@@ -273,10 +270,13 @@ background-repeat: no-repeat;
         text-transform: uppercase;
         }
 
+footer{
+      height: 5vh;
+   background-color: #000; 
+}
 
 
-
-/* @media(min-width:901px) and (max-width: 1500px){ 
+/* @media({ 
 
   
 }*/
