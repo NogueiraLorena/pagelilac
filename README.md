@@ -15,4 +15,4 @@ early stages <br/> O rascunho tá aqui.
 
 <br/>
 O menu que eu tentei fazer não funcionou exatamente como eu queria. <br/>
-Em breve estarei trabalhando para melhorá-lo.
+Em breve estarei trabalhando para melhorá-lo.<br/> Completá - lo, na verdade.
